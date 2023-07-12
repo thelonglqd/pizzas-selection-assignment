@@ -1,0 +1,35 @@
+.basket-container {
+  color: #ffffff;
+  border: 2px solid #2f3e47;
+  border-radius: 8px;
+  padding: 8px;
+  min-height: 250px;
+  display: flex;
+  flex-direction: column;
+
+  .divider {
+    border-top: 1px solid #ffffff;
+  }
+
+  .items-list {
+    min-height: 100px;
+
+    .close-btn {
+      width: 25px;
+      height: 25px;
+      background-color: #2f3e47;
+      border-radius: 50%;
+      font-size: 20px;
+      font-weight: bold;
+      color: #ffffff;
+      display: inline-block;
+      position: relative;
+      cursor: pointer;
+      & > span {
+        position: absolute;
+        top: -4px;
+        left: 4px;
+      }
+    }
+  }
+}

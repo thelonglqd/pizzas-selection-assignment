@@ -1,0 +1,20 @@
+.pizza-card {
+  width: calc(33% - 10px);
+  margin-left: 10px;
+  margin-top: 10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  border: 1px solid #ababab;
+  padding: 1rem;
+  border-radius: 8px;
+
+  background-color: #4c6574;
+
+  .text-title {
+    color:#ababab
+  }
+}
